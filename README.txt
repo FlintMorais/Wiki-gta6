@@ -1,5 +1,5 @@
 --head--
-Fonte utilizada: Montserrat-Tirada do Google fonts
+Fonte utilizada: Lato do Google fonts
 Font Awsome para os icones
 --------------------------
 
@@ -9,7 +9,6 @@ Cor Roxa: #7C0899 - Utilizado como variável
 ----------------------
 
 --Classes--
-Classe do "header" = "menu"
-Classe para o icone = "icon"
-Classe para os botões = "btn"
+Classe para os links = "btn"
+Classe para a logo = "logo"
 -----------------------------

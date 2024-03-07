@@ -11,7 +11,7 @@
     --color-light: #ffffff;
 }
 
-.menu{
+header{
     display: flex;
     background-image: linear-gradient(rgb(124, 8, 153), rgb(250, 208, 44));
     width: 100%;
@@ -52,8 +52,4 @@ a{
 p,h1,h2{
     margin: 1rem 10%;
     font-weight: 300;
-}
-
-img{
-
 }
