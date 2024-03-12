@@ -54,6 +54,13 @@ p,h1,h2{
     font-weight: 300;
 }
 
+.titulo-pag1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
 .imagem{
     width:80%;
     background-position: 50%;
