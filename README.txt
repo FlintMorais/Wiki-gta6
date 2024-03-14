@@ -1,6 +1,6 @@
 --head--
 Fonte utilizada: Lato do Google fonts
-Font Awsome para os icones
+Google Fonts para os icones
 --------------------------
 
 --Cores do Gradiente--
