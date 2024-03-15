@@ -295,7 +295,7 @@ a{
     color: black;
 }
 a:hover, .ativo{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* estilização texto e conteudos */
