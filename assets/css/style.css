@@ -40,6 +40,13 @@ header{
     padding: 1rem;
 }
 
+iframe{
+    margin: 1rem 20%;
+    width: 60%;
+    height: 40rem;
+    border-radius: 30px;
+}
+
 a{
     display: flex;
     align-items: center;
@@ -100,35 +107,43 @@ table {
     border-collapse: collapse; 
     text-align: center;
 }
+
 caption {
     font-size: 1.5rem;
     color: var(--color-purple);
     font-weight: 800;
     margin-bottom: 10px;
 }
+
 thead tr {
     background: var(--color-purple);
     color: #fff;    
 }
+
 th,td {
     width: 25%;
     padding: 15px;
 }
+
 tbody tr {
     border-bottom: 1px solid #ccc;
 }
+
 tbody tr:nth-child(even) {
     background: #7c089921;
 }
+
 tbody tr:last-child {
     border-bottom: 20px solid var(--color-purple);
 }
+
 tbody tr:hover {
     font-weight: 600;
     background-color: #7c089949;
     color: black;
     cursor: pointer;
 }
+
 tfoot {
     font-weight: 700;
 }
@@ -144,6 +159,7 @@ footer {
 .container {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 80%;
     margin: 0 10%;
 }
