@@ -21,11 +21,7 @@ header{
     width: 100%;
 }
 
-body{
-    width: 100%;
-}
-
-div{
+.menu{
     margin: 1rem 10%;
     display: flex;
     align-items: center;
@@ -36,7 +32,7 @@ div{
     height: 100%;
 }
 
-header nav,ul{
+.nav{
     display: flex;
     gap: 2rem;
     align-items: center;
@@ -57,7 +53,7 @@ a{
     font-weight: 700;
 }
 
-a:hover{
+a:hover, .ativo{
     text-decoration: underline;
 }
 
@@ -137,17 +133,23 @@ tfoot {
     font-weight: 700;
 }
 
-.rodape {
-    width: 100%;
+footer {
     background-color: #000;
     color: #fff;
-    text-align: center;
-    padding: 2rem 0px;
+    padding: 20px 0;
+    display: flex;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 10%;
 }
 
 .logo-rodape {
     max-width: 150px;
-    margin: 0;
 }
 
 .descricao-rodape {
@@ -156,11 +158,24 @@ tfoot {
 }
 
 .lista-nomes {
-    padding: 0;
     margin: 0;
+    text-align: left;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .lista-nomes li {
-    margin: 0 10px;
+    display: flex;
+    gap: 1rem;
+    margin: 0 1rem;
     font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .rodape {
+        flex-direction: column;
+    }
+
+    .lista-nomes {
+        grid-template-columns: 1fr;
+    }
 }
