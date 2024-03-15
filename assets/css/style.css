@@ -84,6 +84,7 @@ p,h1,h2,h3,h4,h5,h6{
     max-height: 40rem;
     filter: grayscale(70%);
     border-radius: 30px;
+    transition: 1s;
 }
 .imagem:hover{
     filter: grayscale(0%);
