@@ -41,15 +41,16 @@ header nav {
     
 }
 
-section.corpo-do-inicio .container1{
+/* section.corpo-do-inicio .container1{
     background-image: linear-gradient(rgb(250, 208, 44), rgb(124, 8, 153));
-}
+} */
 
 main.main-thiago{
     padding-bottom: 15.6%;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgb(250, 208, 44), rgb(124, 8, 153));
+    /* background-image: linear-gradient(rgb(250, 208, 44), rgb(124, 8, 153)); */
+    background-color: #ffffff;
 }
 
 .ulTiago {
@@ -58,6 +59,10 @@ main.main-thiago{
     gap: 2rem;
     align-items: center;
     list-style: none;
+}
+
+.PTiago {
+    color: #000;
 }
 
 h1 {
@@ -147,25 +152,26 @@ h2{
     }
     
     .Links p {
-        color: white;
+        color: rgb(0, 0, 0);
     font-size: 20px;
     margin: 1rem 10%;
     margin-bottom: 70px;
-    font-weight: 300;
+    font-weight: 400    ;
+    
 }
 
 .SobreP {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     margin-bottom: 70px;
     margin: 1rem 10%;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 
 
 .link1 {
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 1rem 10%;
     font-weight: 300;
     font-size: 2rem;
