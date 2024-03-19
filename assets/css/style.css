@@ -1,4 +1,4 @@
-/* tentando juntar tudo */
+/* HOME */
 *{
     font-family: "Lato", sans-serif;
     margin: 0;
@@ -244,13 +244,10 @@ tfoot {
         padding-right: 4rem;
     }
 }
+/* HOME*/
 
 
 
-
-
-
-/* tentando juntar tudo */
 *{
     font-family: "Lato", sans-serif;
     margin: 0;
@@ -428,3 +425,77 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+
+/* comunidade */
+body.comunidade {
+    font-family: Lato , sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.comment-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.comment-container {
+    margin-top: 20px;
+}
+
+.comment {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align:left;
+}
+
+
+
+.username {
+    font-weight: bold;
+}
+
+.comment-form {
+    margin-top: 30px;
+}
+
+.comment-form input[type="text"],
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.comment-form button {
+    background-color: #8e41ac;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment-form button:hover {
+    background-color: #8e41ac;
+}
+
+tfoot {
+    font-weight: 700;
+}
+
+.lista-nomes {
+    padding: 0;
+    margin: 0;
+}
+
+.lista-nomes li {
+    margin: 0 10px;
+    font-size: 14px;
+}
+/* comunidade */
